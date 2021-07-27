@@ -1,0 +1,27 @@
+#:kivy 1.0.9
+
+<ArdApplication>:
+
+
+
+    Button:
+        pos_hint: {'center_x': .5, 'y': .2}
+        size_hint_x: .1
+        size_hint_y: .1
+
+        text: "Turn on light"
+        on_press: root.turn_on()
+
+    Button:
+        id: test
+        pos_hint: {'center_x': .5, 'y': .3}
+        size_hint_x: .1
+        size_hint_y: .1
+
+        text: "Turn off light"
+        on_press: root.turn_off()
+
+
+
+
+
