@@ -91,7 +91,7 @@ class ArdApplication(FloatLayout):
 
 
         count = 0
-        x = [1, 2, 3]
+        x = [1, 2, 3,4,5]
         for num in range(len(x)):
             self.test = Button(text=str(x[num]), pos_hint = {'x':.1,'y':count/10}, size_hint = (.1,.1))
             self.add_widget(self.test)
